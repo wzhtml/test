@@ -1,0 +1,48 @@
+.centered-text {
+    text-align: center;
+}
+
+.download-button {
+    display: block;
+    width: fit-content;
+    margin: 1em auto 3em auto;
+    padding: 10px 20px;
+    background-color: #6C3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.download-button:hover {
+    background-color: #4B2;
+}
+
+button {
+    background: none;
+    border: none;
+    color: inherit;
+    font-size: inherit;
+    cursor: pointer;
+}
+
+body {
+    background-color: gray;
+    background-image: url('main-background.png');
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+html, body {
+    height: 100vh;
+    margin: 0;
+}
+
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+}
